@@ -29,6 +29,7 @@ locked_by_source | N | Filter by lock source
 optin_status | N | Filter by opt-in status
 query | N | Search contacts by first name, last name, or channel value
 search_message_bodies | N | When using the 'query' parameter, setting this to true will return any contacts who have sent or received a message containing the query string
+created_at | N | Filter by creation date (may use greater_than() and less_than())
 
 ### Sortable Fields
 * created_at
